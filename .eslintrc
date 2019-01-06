@@ -1,0 +1,20 @@
+{
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "semi": ["error", "never"],
+        "no-trailing-spaces": "error",
+        "semi-spacing": ["error", { "before": false, "after": true }],
+        "prefer-const": "error"
+    },
+    "settings": {
+        "import/core-modules": ["phaser"]
+    }
+}

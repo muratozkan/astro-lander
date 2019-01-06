@@ -1,0 +1,38 @@
+{
+  "name": "astro-lander",
+  "version": "0.1.0",
+  "description": "Land on asteroids",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lander",
+    "game",
+    "phaser.io",
+    "javascript"
+  ],
+  "author": "Murat Özkan",
+  "repository": "git@github.com:muratozkan/astro-lander.git",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.15.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^5.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
